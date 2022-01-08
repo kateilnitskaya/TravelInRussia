@@ -35,6 +35,10 @@
     position: relative;
 }
 
+.img {
+    border-radius: 15px 100px 15px 100px;
+}
+
 .link {
     opacity: 1;
     color: #FFFFFF;
@@ -120,6 +124,7 @@
     background-size: contain;
     /*height:553px;*/
     margin: 78px auto 0 auto;
+    border-radius: 15px 100px 15px 100px;
 }
 
 .lead__caption {
@@ -191,6 +196,7 @@
 
 .photo-grid__element {
     width: calc((1184px - (3*16px))/4);
+    border-radius: 95px;
 }
 
 .places {
